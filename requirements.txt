@@ -1,0 +1,16 @@
+torch
+torchvision
+torchaudio
+transformers
+sentence-transformers
+spacy
+scispacy
+wikipedia
+beautifulsoup4
+requests
+scikit-learn
+nltk
+faiss-gpu; platform_system != 'Windows'
+faiss-cpu; platform_system == 'Windows'
+# For SciSpacy biomedical NER model (install manually if needed):
+# pip install https://huggingface.co/allenai/scispacy_models/resolve/main/en_core_sci_sm-0.5.1.tar.gz
